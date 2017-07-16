@@ -1,0 +1,1 @@
+void ErrorString(const char *str);
