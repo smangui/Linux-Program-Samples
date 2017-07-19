@@ -1,0 +1,90 @@
+execve("./process1", ["./process1"], [/* 37 vars */]) = 0
+brk(0)                                  = 0x1a2b000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f5f59b000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=63211, ...}) = 0
+mmap(NULL, 63211, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5f5f58b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\241\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=962656, ...}) = 0
+mmap(NULL, 3142544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f5f07b000
+mprotect(0x7f5f5f15d000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f5f35c000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe1000) = 0x7f5f5f35c000
+mmap(0x7f5f5f366000, 82832, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5f5f366000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=88384, ...}) = 0
+mmap(NULL, 2184216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f5ee65000
+mprotect(0x7f5f5ee7a000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f5f079000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f5f5f079000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200l\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=135366, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f5f58a000
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f5ec48000
+mprotect(0x7f5f5ec60000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f5ee5f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f5f5ee5f000
+mmap(0x7f5f5ee61000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5f5ee61000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\30\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1802936, ...}) = 0
+mmap(NULL, 3917016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f5e88b000
+mprotect(0x7f5f5ea3e000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f5ec3d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b2000) = 0x7f5f5ec3d000
+mmap(0x7f5f5ec43000, 17624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5f5ec43000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pU\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1022320, ...}) = 0
+mmap(NULL, 3117352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f5e591000
+mprotect(0x7f5f5e68a000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f5e889000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf8000) = 0x7f5f5e889000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f5f589000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f5f587000
+arch_prctl(ARCH_SET_FS, 0x7f5f5f587740) = 0
+mprotect(0x7f5f5ec3d000, 16384, PROT_READ) = 0
+mprotect(0x7f5f5e889000, 4096, PROT_READ) = 0
+mprotect(0x7f5f5ee5f000, 4096, PROT_READ) = 0
+mprotect(0x7f5f5f079000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f5f586000
+mprotect(0x7f5f5f35c000, 32768, PROT_READ) = 0
+mprotect(0x602000, 4096, PROT_READ)     = 0
+mprotect(0x7f5f5f59d000, 4096, PROT_READ) = 0
+munmap(0x7f5f5f58b000, 63211)           = 0
+set_tid_address(0x7f5f5f587a10)         = 30091
+set_robust_list(0x7f5f5f587a20, 0x18)   = 0
+futex(0x7fff9930d37c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f5f5f587740) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f5f5ec4e750, [], SA_RESTORER|SA_SIGINFO, 0x7f5f5ec57cb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f5f5ec4e7e0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f5f5ec57cb0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+brk(0)                                  = 0x1a2b000
+brk(0x1a4c000)                          = 0x1a4c000
+open("/tmp/test1", O_RDWR|O_CREAT|O_EXCL|O_TRUNC, 0766) = 3
+write(3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 40) = 40
+mmap(NULL, 40, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f5f5f59a000
+close(3)                                = 0
+fchmod(3, 0666)                         = -1 EBADF (Bad file descriptor)
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f5f599000
+write(1, "create_mutex: fchmod failed: err"..., 58) = 58
+close(3)                                = -1 EBADF (Bad file descriptor)
+write(1, "get lock\n", 9)               = 9
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+nanosleep({10, 0}, {6, 184653837})      = ? ERESTART_RESTARTBLOCK (To be restarted)
+--- SIGINT (Interrupt) @ 0 (0) ---
++++ killed by SIGINT +++
